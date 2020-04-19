@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Neil Earlam</Authors>
+    <RepositoryUrl>https://github.com/GingerNeil12/StandardApiResponse.git</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>WebApi ApiResponse StandardResponse</PackageTags>
+    <PackageId>Core.SimpleStandardApiResponse</PackageId>
+    <Product>Core.SimpleStandardApiResponse</Product>
+    <Description>A simple standardized api response for .Net Core Web Api projects.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
