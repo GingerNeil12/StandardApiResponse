@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,6 +9,8 @@
     <PackageId>Core.SimpleStandardApiResponse</PackageId>
     <Product>Core.SimpleStandardApiResponse</Product>
     <Description>A simple standardized api response for .Net Core Web Api projects.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
